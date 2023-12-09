@@ -227,6 +227,12 @@ img {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -237,4 +243,5 @@ img {
   line-height: 1.5;
   color: #F4F4FD;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
