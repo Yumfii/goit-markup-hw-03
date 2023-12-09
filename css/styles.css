@@ -141,7 +141,7 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: #4d5ae5;
-  display: inline-flex;
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -170,6 +170,16 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.feature-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-section-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-section-text {
@@ -180,6 +190,7 @@ img {
 
 .team-section {
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 
 .team-section-title {
