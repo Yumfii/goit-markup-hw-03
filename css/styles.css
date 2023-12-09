@@ -42,10 +42,10 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.container {
   display: flex;
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -74,12 +74,30 @@ img {
   text-transform: uppercase;
 }
 
+.header-logo {
+  margin-right: 76px
+}
+
 .header-logo span {
   color: #2e2f42;
 }
 
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav-list-item {
+  padding: 24px 0;
+}
+
 .header-address {
   font-style: normal;
+}
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-address-link {
