@@ -85,6 +85,7 @@ img {
 .header-nav-list {
   display: flex;
   gap: 40px;
+  margin-right: 332px;
 }
 
 .header-nav-list-item {
@@ -98,6 +99,8 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
+  align-items: center;
+  height: 72px;
 }
 
 .header-address-link {
@@ -115,6 +118,7 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -125,6 +129,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
   
 }
 
@@ -134,7 +139,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover {
