@@ -2,11 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 a {
