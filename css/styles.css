@@ -278,7 +278,7 @@ img {
   row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-item::nth-child(0) {
   width: calc((100% - 48px) / 3);
 }
 
