@@ -62,6 +62,17 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-container {
+  display: block;
+}
+
+.container-column {
+  flex-direction: column;
 }
 
 .header-nav {
